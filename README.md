@@ -1,7 +1,8 @@
 
 
 # READ THIS:
-**This decryption tool is for people who used this to encrypt their offsets: https://github.com/joeyjurjens/Theos-Tweak-XOR-ing  or the encrypted version of Joeys mod menu**
+* **This decryption tool is for people who used this to encrypt their offsets: https://github.com/joeyjurjens/Theos-Tweak-XOR-ing  or the encrypted version of Joeys mod menu**
+* Don't forget to change cryptBaseOne and cryptBaseTwo inside of ***Decrypt.py*** to match cryptBaseOne and cryptBaseTwo inside of the ***encrypt.py*** file that joey made
 
 # HOW TO USE:
 1. download Decrypt.py and paste it inside your project
