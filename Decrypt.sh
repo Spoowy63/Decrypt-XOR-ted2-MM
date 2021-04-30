@@ -13,7 +13,7 @@ import re
 # If you change these, also open Utils.h & change them there too with the same values you have here.
 cryptBaseOne = 1959173450275472825
 cryptBaseTwo = 8264919756289164628
-col = "\033[96m"
+
 def decrypt_offset(offset):
     return str(hex(((int(hex(int(offset)), 16) ^ cryptBaseTwo) - cryptBaseOne)))
 
