@@ -66,7 +66,6 @@ if [ $? -eq 0 ]; then
 else
     echo "python3 not found so using python instead :)"
     python decryptXOR.py
-    echo "python found"
 fi
 
 # Delete decryptXOR.py
